@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 100vh;
     margin-top:50;
 }
 
@@ -16,7 +16,7 @@ body {
     overflow: hidden;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin-top: 10px; /* কভার ফটো নিচে নামানো হলো */
+    margin-top: 40px; /* কভার ফটো নিচে নামানো হলো */
 }
 .cover-photo img {
     width: 100%;
