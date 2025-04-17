@@ -6,8 +6,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin-top: 80px;
+    height: 100%;
+    margin-top: -5px;
 }
 
 .cover-photo {
@@ -16,7 +16,7 @@ body {
     overflow: hidden;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    margin-top: 10px; /* কভার ফটো নিচে নামানো হলো */
+    margin-top: 7px; /* কভার ফটো নিচে নামানো হলো */
 }
 .cover-photo img {
     width: 100%;
@@ -163,21 +163,21 @@ body {
 .footer-buttons {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 .footer-btn {
     background: #27AE60;
     color: white;
     padding: 5px 15px;
-    border-radius: 30px;
+    border-radius: 5px;
     text-decoration: none;
     font-size: 10px;
     font-weight: bold;
     transition: 0.3s;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 5px;
 }
 
 .footer-btn i {
